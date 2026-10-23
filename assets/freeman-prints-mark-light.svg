@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="mcyan" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00f2ff"/><stop offset="1" stop-color="#0066ff"/>
+    </linearGradient>
+    <linearGradient id="mglyph" x1="0" y1="150" x2="0" y2="362" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1830"/><stop offset="1" stop-color="#123a6b"/>
+    </linearGradient>
+    <pattern id="mlayers" y="150" width="512" height="21.2" patternUnits="userSpaceOnUse">
+      <rect width="512" height="18" fill="#fff"/>
+    </pattern>
+    <mask id="mlayerMask" maskUnits="userSpaceOnUse" x="0" y="0" width="512" height="512">
+      <rect width="512" height="512" fill="url(#mlayers)"/>
+      <!-- top layer still printing: right of the nozzle is ghosted -->
+      <rect x="301" y="150" width="211" height="18" fill="#2a2a2a"/>
+    </mask>
+    <radialGradient id="mtip" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff3d6"/><stop offset="0.35" stop-color="#ff8a1f"/>
+      <stop offset="1" stop-color="#ff8a1f" stop-opacity="0"/>
+    </radialGradient></defs>
+  
+  
+    <polygon points="256,56 429.2,156 429.2,356 256,456 82.8,356 82.8,156" fill="none" stroke="url(#mcyan)" stroke-width="14" stroke-linejoin="round"/>
+    <path d="M147,150 H249 V192 H189 V234 H233 V272 H189 V362 H147 Z M265,150 H305 A70,70 0 0 1 305,290 H307 V362 H265 Z M307,192 A28,28 0 0 1 307,248 Z" transform="translate(-5,0)" fill="url(#mglyph)" fill-rule="evenodd" mask="url(#mlayerMask)"/>
+    <!-- hot-end hanging from the frame -->
+    <line x1="300" y1="80" x2="300" y2="114" stroke="url(#mcyan)" stroke-width="6" stroke-linecap="round"/>
+    <rect x="283" y="112" width="34" height="17" rx="3.5" fill="url(#mcyan)"/>
+    <polygon points="290,129 310,129 304,141 296,141" fill="#5b6b80"/>
+    <circle cx="300" cy="145" r="11" fill="url(#mtip)"/>
+</svg>
