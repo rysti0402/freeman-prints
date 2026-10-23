@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freeman Prints | Custom 3D Printing in Kansas City</title>
+  <meta name="description" content="Freeman Prints is a local Kansas City 3D printing shop. Custom parts, rapid prototypes, replacement parts, and gifts in PLA, PETG, ASA, TPU, Nylon and carbon-fiber composites. Serving the KC metro on both sides of State Line.">
+  <meta property="og:title" content="Freeman Prints | Custom 3D Printing in Kansas City">
+  <meta property="og:description" content="Made layer by layer in Kansas City. Custom parts, prototypes and gifts printed locally.">
+  <meta property="og:image" content="https://freemanprints.online/assets/og-logo.png">
+  <link rel="canonical" href="https://freemanprints.online/">
+  <link rel="icon" href="assets/freeman-prints-mark-light.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json" id="ld-business"></script>
+</head>
+<body>
+
+  <!-- ===== Top bar ===== -->
+  <div class="localbar">
+    <span class="pin" aria-hidden="true"></span>
+    Locally printed in <strong>Kansas City</strong> · Pickup across the KC metro, MO &amp; KS
+  </div>
+
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#top" class="brand" aria-label="Freeman Prints home">
+        <img src="assets/freeman-prints-mark-light.svg" alt="" width="40" height="40">
+        <span class="brand-word"><b>FREEMAN</b><i>PRINTS</i></span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Main">
+        <a href="#shop">Shop</a>
+        <a href="#estimate">Instant estimate</a>
+        <a href="#materials">Materials</a>
+        <a href="#local">Kansas City</a>
+        <a href="#how">How it works</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="cartBtn" aria-label="Open quote list">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h-2l-1 2h2l3.6 7.6-1.4 2.4c-.6 1.1.2 2 1.3 2h11v-2h-10.6l1.1-2h7.5c.8 0 1.4-.4 1.7-1l3.6-6.5c.3-.7-.2-1.5-1-1.5h-14.8l-.9-2zm3 16a2 2 0 1 0 0 .01zm9 0a2 2 0 1 0 0 .01z"/></svg>
+          <span class="badge" id="cartCount">0</span>
+        </button>
+        <a href="#estimate" class="btn btn-primary btn-sm hide-sm">Get a quote</a>
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== Hero carousel ===== -->
+    <section class="hero wrap" aria-roledescription="carousel" aria-label="Featured">
+      <div class="slides" id="slides">
+
+        <article class="slide slide-dark is-active" data-index="0">
+          <div class="slide-copy">
+            <p class="eyebrow">Kansas City's local print shop</p>
+            <h1>Made layer by layer<br>in <span class="grad">Kansas City.</span></h1>
+            <p class="lede">Custom 3D printed parts, prototypes and gifts, printed right here in KC and ready for pickup across the metro.</p>
+            <div class="cta-row">
+              <a href="#shop" class="btn btn-light">Shop what we make</a>
+              <a href="#estimate" class="btn btn-ghost-light">Instant estimate</a>
+            </div>
+          </div>
+          <div class="slide-art">
+            <svg id="printer" viewBox="0 0 520 440" role="img" aria-label="Animated 3D printer printing a gear"></svg>
+          </div>
+        </article>
+
+        <article class="slide slide-sky" data-index="1">
+          <div class="slide-copy">
+            <p class="eyebrow">Rapid prototyping</p>
+            <h2>From CAD file<br>to part in your hand.</h2>
+            <p class="lede">Send an STL, STEP or a napkin sketch. We'll help you dial in material, strength and fit, then iterate fast.</p>
+            <div class="cta-row">
+              <a href="#estimate" class="btn btn-primary">Size up my part</a>
+              <a href="#how" class="btn btn-ghost">How it works</a>
+            </div>
+          </div>
+          <div class="slide-art">
+            <svg viewBox="0 0 520 440" role="img" aria-label="Prototype bracket with dimension lines">
+              <defs>
+                <linearGradient id="brk" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3d8bff"/><stop offset="1" stop-color="#0047b3"/></linearGradient>
+              </defs>
+              <g class="float">
+                <path d="M150 300 L150 150 L210 120 L210 240 L370 160 L370 220 L210 300 Z" fill="url(#brk)"/>
+                <path d="M150 150 L210 120 L270 150 L210 180 Z" fill="#7fb2ff"/>
+                <path d="M210 180 L270 150 L270 270 L210 300 Z" fill="#1d5fd1" opacity=".85"/>
+                <path d="M270 270 L370 220 L370 160 L430 190 L430 250 L330 300 L270 270" fill="#0a3c99" opacity=".9"/>
+                <circle cx="340" cy="215" r="13" fill="#dbe8ff"/><circle cx="240" cy="260" r="11" fill="#dbe8ff"/>
+              </g>
+              <g stroke="#0066ff" stroke-width="2" fill="none" stroke-dasharray="5 5" class="dims">
+                <path d="M140 320 L340 420"/><path d="M450 200 L450 270"/>
+              </g>
+              <text x="200" y="395" fill="#0047b3" font-size="18" font-weight="700" transform="rotate(26 200 395)">82.0 mm</text>
+              <text x="462" y="242" fill="#0047b3" font-size="18" font-weight="700">24.5</text>
+            </svg>
+          </div>
+        </article>
+
+        <article class="slide slide-kc" data-index="2">
+          <div class="slide-copy">
+            <p class="eyebrow">Proudly KC</p>
+            <h2>Support local makers.<br>Skip the shipping wait.</h2>
+            <p class="lede">From the Northland to Johnson County, Freeman Prints serves the whole metro on both sides of State Line.</p>
+            <div class="cta-row">
+              <a href="#local" class="btn btn-light">See local pickup</a>
+              <a href="#shop" class="btn btn-ghost-light">Browse the shop</a>
+            </div>
+          </div>
+          <div class="slide-art">
+            <svg viewBox="0 0 520 440" role="img" aria-label="Kansas City skyline">
+              <defs>
+                <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd27a"/><stop offset="1" stop-color="#ff8a5c"/></linearGradient>
+              </defs>
+              <circle cx="380" cy="150" r="70" fill="url(#sky)" opacity=".9"/>
+              <g fill="#13294b">
+                <rect x="40" y="250" width="50" height="140"/><rect x="95" y="200" width="40" height="190"/>
+                <path d="M150 390 V170 L170 140 L190 170 V390 Z"/>
+                <rect x="198" y="230" width="46" height="160"/>
+                <!-- memorial-style tower -->
+                <rect x="262" y="120" width="26" height="270"/><path d="M256 120 h38 l-6 -18 h-26 z"/><path d="M262 102 q13 -26 26 0" />
+                <rect x="300" y="215" width="54" height="175"/><path d="M362 390 V190 L392 160 L422 190 V390 Z"/>
+                <rect x="430" y="260" width="50" height="130"/>
+              </g>
+              <g fill="#ffd27a" opacity=".85">
+                <rect x="104" y="220" width="6" height="8"/><rect x="118" y="240" width="6" height="8"/><rect x="208" y="250" width="6" height="8"/>
+                <rect x="312" y="240" width="6" height="8"/><rect x="330" y="270" width="6" height="8"/><rect x="384" y="210" width="6" height="8"/>
+              </g>
+              <!-- fountain -->
+              <g class="fountain" fill="#7fe9ff">
+                <circle cx="120" cy="388" r="5"/><circle cx="135" cy="378" r="4"/><circle cx="150" cy="372" r="5"/><circle cx="165" cy="378" r="4"/><circle cx="180" cy="388" r="5"/>
+              </g>
+              <rect x="20" y="390" width="480" height="8" rx="4" fill="#13294b"/>
+            </svg>
+          </div>
+        </article>
+
+      </div>
+      <div class="carousel-ui">
+        <button class="arrow" id="prevSlide" aria-label="Previous slide">‹</button>
+        <div class="dots" id="dots"></div>
+        <button class="arrow" id="nextSlide" aria-label="Next slide">›</button>
+      </div>
+    </section>
+
+    <!-- ===== Value strip ===== -->
+    <section class="wrap strip reveal">
+      <div class="strip-item"><b class="count" data-to="7">0</b><span>engineering-grade materials</span></div>
+      <div class="strip-item"><b>KC</b><span>local pickup, MO &amp; KS</span></div>
+      <div class="strip-item"><b>1 → batch</b><span>one-offs to small production runs</span></div>
+      <div class="strip-item"><b>FDM</b><span>functional, durable prints</span></div>
+    </section>
+
+    <!-- ===== Shop ===== -->
+    <section class="wrap section" id="shop">
+      <div class="section-head reveal">
+        <div>
+          <p class="eyebrow dark">Shop</p>
+          <h2>What we print</h2>
+        </div>
+        <label class="sort">Sort
+          <select id="sortSel">
+            <option value="featured">Featured</option>
+            <option value="az">A → Z</option>
+            <option value="strength">Toughest first</option>
+          </select>
+        </label>
+      </div>
+      <div class="chips" id="chips" role="tablist" aria-label="Categories"></div>
+      <div class="grid" id="grid"></div>
+    </section>
+
+    <!-- ===== Estimator ===== -->
+    <section class="wrap section" id="estimate">
+      <div class="estimator reveal">
+        <div class="est-form">
+          <p class="eyebrow dark">Instant estimate</p>
+          <h2>Size up your part in seconds</h2>
+          <p class="muted">Move the sliders to see roughly how much material and print time your part needs. Get the exact price on our Treatstock shop.</p>
+
+          <label class="field">Material
+            <select id="estMat"></select>
+          </label>
+
+          <label class="field">Approx. largest dimension <output id="sizeOut">8 cm</output>
+            <input type="range" id="estSize" min="2" max="30" value="8">
+          </label>
+
+          <label class="field">Strength (infill) <output id="infillOut">20%</output>
+            <input type="range" id="estInfill" min="10" max="100" step="5" value="20">
+          </label>
+
+          <div class="field">Quantity
+            <div class="stepper">
+              <button type="button" data-step="-1" aria-label="Fewer">−</button>
+              <input type="number" id="estQty" value="1" min="1" max="500">
+              <button type="button" data-step="1" aria-label="More">+</button>
+            </div>
+          </div>
+
+          <div class="field">Finish
+            <div class="seg" id="estFinish">
+              <button type="button" class="on" data-v="standard">Standard</button>
+              <button type="button" data-v="fine">Fine detail</button>
+              <button type="button" data-v="draft">Draft / fast</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="est-result">
+          <div class="est-preview">
+            <svg viewBox="0 0 200 200" id="estCube" aria-hidden="true"></svg>
+          </div>
+          <p class="est-label">Estimated material</p>
+          <p class="est-price" id="estGrams">0 g</p>
+          <p class="est-meta" id="estMeta"></p>
+          <a class="btn btn-primary btn-block" href="#" data-treatstock target="_blank" rel="noopener">Get exact price on Treatstock ↗</a>
+          <button class="btn btn-ghost-light btn-block" id="estAdd" style="margin-top:10px">Add to quote list</button>
+          <p class="fine">Rough estimate only. Actual weight and time depend on the part's shape and supports.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Materials ===== -->
+    <section class="section materials-band" id="materials">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <div>
+            <p class="eyebrow">Materials</p>
+            <h2>The right plastic for the job</h2>
+          </div>
+        </div>
+        <div class="mat-tabs" id="matTabs" role="tablist"></div>
+        <div class="mat-panel reveal" id="matPanel"></div>
+      </div>
+    </section>
+
+    <!-- ===== Kansas City ===== -->
+    <section class="wrap section" id="local">
+      <div class="local reveal">
+        <div class="local-copy">
+          <p class="eyebrow dark">Local in Kansas City</p>
+          <h2>Your neighborhood print shop, metro-wide.</h2>
+          <p class="muted">Freeman Prints is a Kansas City shop. That means you talk to the person running the printer, see test fits sooner, and pick up locally instead of waiting on a cross-country box.</p>
+          <ul class="checks">
+            <li>Local pickup / meetup across the KC metro</li>
+            <li>Talk through your part in person or by message</li>
+            <li>Great for KC small businesses, makers, schools and car folks</li>
+          </ul>
+          <div class="areas" id="areas"></div>
+        </div>
+        <div class="local-map">
+          <svg viewBox="0 0 420 420" id="kcMap" role="img" aria-label="Service area map of the Kansas City metro"></svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== How it works ===== -->
+    <section class="wrap section" id="how">
+      <div class="section-head reveal"><div><p class="eyebrow dark">How it works</p><h2>Four steps to a finished part</h2></div></div>
+      <ol class="steps">
+        <li class="step reveal"><span class="step-n">1</span><h3>Send your idea</h3><p>Upload a file, link a model, or describe what you need. Photos and measurements work too.</p></li>
+        <li class="step reveal"><span class="step-n">2</span><h3>Pick material</h3><p>We'll recommend a material based on strength, heat, flex and where the part lives.</p></li>
+        <li class="step reveal"><span class="step-n">3</span><h3>We print it</h3><p>Printed and inspected layer by layer right here in Kansas City.</p></li>
+        <li class="step reveal"><span class="step-n">4</span><h3>Pick up or ship</h3><p>Grab it locally in the KC metro, or order through Treatstock for shipping.</p></li>
+      </ol>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="wrap section narrow" id="faq">
+      <div class="section-head reveal"><div><p class="eyebrow dark">FAQ</p><h2>Good questions</h2></div></div>
+      <div class="faq" id="faqList"></div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="wrap section">
+      <div class="cta-band reveal">
+        <img src="assets/freeman-prints-mark-dark.svg" alt="" width="96" height="96">
+        <div>
+          <h2>Got a part in mind? Let's print it in KC.</h2>
+          <p>Build a quote list, or order through our Treatstock shop.</p>
+        </div>
+        <div class="cta-row">
+          <a href="#estimate" class="btn btn-light">Start a quote</a>
+          <a href="#" class="btn btn-ghost-light" data-treatstock target="_blank" rel="noopener">Treatstock shop ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap foot-grid">
+      <div>
+        <a href="#top" class="brand"><img src="assets/freeman-prints-mark-light.svg" alt="" width="36" height="36"><span class="brand-word"><b>FREEMAN</b><i>PRINTS</i></span></a>
+        <p class="muted">Custom 3D printing in Kansas City, serving the metro on both sides of State Line.</p>
+      </div>
+      <div><h4>Shop</h4><a href="#shop">Everything</a><a href="#estimate">Instant estimate</a><a href="#materials">Materials</a></div>
+      <div><h4>Local</h4><a href="#local">KC pickup</a><a href="#how">How it works</a><a href="#faq">FAQ</a></div>
+      <div><h4>Elsewhere</h4><a href="#" data-treatstock target="_blank" rel="noopener">Treatstock ↗</a><a href="#" data-email>Email us</a></div>
+    </div>
+    <div class="wrap foot-base">© <span id="year"></span> Freeman Prints · Kansas City, MO/KS</div>
+  </footer>
+
+  <!-- ===== Quick view modal ===== -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="qvTitle">
+      <button class="icon-btn modal-x" data-close aria-label="Close">✕</button>
+      <div class="qv-art" id="qvArt"></div>
+      <div class="qv-body">
+        <p class="eyebrow dark" id="qvCat"></p>
+        <h3 id="qvTitle"></h3>
+        <p class="muted" id="qvDesc"></p>
+        <p class="opt-label">Color: <b id="qvColorName"></b></p>
+        <div class="swatches lg" id="qvSwatches"></div>
+        <p class="opt-label">Material</p>
+        <div class="seg wrapflex" id="qvMats"></div>
+        <p class="opt-label">Quantity</p>
+        <div class="stepper" id="qvStepper">
+          <button type="button" data-step="-1" aria-label="Fewer">−</button>
+          <input type="number" id="qvQty" value="1" min="1" max="500">
+          <button type="button" data-step="1" aria-label="More">+</button>
+        </div>
+        <label class="field">Notes (size, fit, link to file…)
+          <textarea id="qvNotes" rows="3" placeholder="e.g. 3/8&quot; bolt holes, needs to survive a hot car"></textarea>
+        </label>
+        <button class="btn btn-primary btn-block" id="qvAdd">Add to quote list</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Quote drawer ===== -->
+  <aside class="drawer" id="drawer" aria-hidden="true" aria-label="Quote list">
+    <div class="drawer-head">
+      <h3>Your quote list</h3>
+      <button class="icon-btn" data-close-drawer aria-label="Close">✕</button>
+    </div>
+    <div class="drawer-body" id="drawerBody"></div>
+    <div class="drawer-foot">
+      <label class="field">Your name <input id="qName" autocomplete="name"></label>
+      <label class="field">Pickup area
+        <select id="qArea"></select>
+      </label>
+      <button class="btn btn-primary btn-block" id="sendQuote">Request quote by email</button>
+      <a class="btn btn-ghost btn-block" href="#" data-treatstock target="_blank" rel="noopener">Order on Treatstock ↗</a>
+    </div>
+  </aside>
+  <div class="scrim" id="scrim" data-close-drawer></div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
